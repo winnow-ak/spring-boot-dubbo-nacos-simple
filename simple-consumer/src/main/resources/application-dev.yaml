@@ -1,0 +1,15 @@
+server:
+  port: 8181
+dubbo:
+  application:
+    name: user-provider
+  registry:
+    address: nacos://127.0.0.1:8848
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages:  winnow.ak.study.provider
+spring:
+  main:
+    allow-bean-definition-overriding: true
