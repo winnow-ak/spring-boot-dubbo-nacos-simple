@@ -1,12 +1,10 @@
 
 # springboot-dubbo-nacos-simple
 ## 项目介绍
-SpringBoot版本:2.2.0
-
+SpringBoot版本:2.1.3
 Dubbo版本:2.7.0
-
-Nacos版本:1.1.4
-
+Dubbo-nacos版本：2.7.1
+Nacos版本:1.0.0
 JDK版本:1.8
 
 ## 搭建步骤
